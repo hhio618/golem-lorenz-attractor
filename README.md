@@ -1,6 +1,5 @@
 # Lorenz attractor on Golem network
-## Intro
-![gif animation](./output.gif?raw=true)
+![gif animation](./output.gif?raw=true)    
 The Lorenz Equations are a system of three coupled, first-order, nonlinear differential equations which describe the trajectory of a particle through time. The system was originally derived by Lorenz as a model of atmospheric convection, but the deceptive simplicity of the equations have made them an often-used example in fields beyond atmospheric physics.
 ## Tutorial (Youtube)
 [![Everything Is AWESOME](https://youtu.be/SPCUOPL6gqs/0.jpg)](https://youtu.be/SPCUOPL6gqs "Everything Is AWESOME")
