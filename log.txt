@@ -1,0 +1,13 @@
+/usr/local/lib/python3.6/dist-packages/scipy/sparse/linalg/dsolve/linsolve.py:206: MatrixRankWarning: Matrix is exactly singular
+  warn("Matrix is exactly singular", MatrixRankWarning)
+/golem/work/task.py:122: RuntimeWarning: invalid value encountered in remainder
+  pos = np.mod(pos, boxsize)
+Traceback (most recent call last):
+  File "/golem/work/task.py", line 152, in <module>
+    main(output_dir)
+  File "/golem/work/task.py", line 125, in main
+    acc = getAcc( pos, Nx, boxsize, n0, Gmtx, Lmtx )
+  File "/golem/work/task.py", line 39, in getAcc
+    n  = np.bincount(j[:,0],   weights=weight_j[:,0],   minlength=Nx);
+  File "<__array_function__ internals>", line 6, in bincount
+ValueError: 'list' argument must have no negative elements
